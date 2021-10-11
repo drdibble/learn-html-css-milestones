@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- meta tags, links to css, etc. -->
+  <title>Sample HTML</title>
+  <style>
+    .blue {
+      color: blue;
+    }
+
+    #yellow {
+      color: yellow;
+    }
+
+    h2 {
+      color: purple;
+    }
+
+    section > h2 {
+      color: purple;
+    }
+
+    .bordered {
+      border-style: dotted;
+    }
+
+
+  </style>
+
+</head>
+
+<body>
+
+<!-- visible content goes here -->
+<h1>Welcome to my page</h1>
+
+<section id="first">
+  <h2 class="blue" id="yellow">First section</h2>
+  <h3>First paragraph</h3>
+<p class="blue">
+  <i>In How E-Commerce Sites Manipulate You Into Buying Things You May Not Want</i>,
+  Jennifer Valentino-DeVries similarly discusses the use of <b>dark patterns</b> in
+  commercial web design. Her primary example was a site called ThredUp which
+  used fake names and locations to show users notifications such as “Alexandria
+   from Anaheim” just saved $200, when in fact “Alexandria from Anaheim” did
+   not even exist. She mentions that “the website’s code pulled combinations
+  from a preprogrammed list of names, locations and items and presented them as
+   actual recent purchases.” I found this example of deception to be the most
+    ridiculous of any of the examples. While the other <em>tactics</em> definitely affect
+     me more, this example was absurd. Valentino-DeVries also discusses how some
+      senators have tried to make strides towards regulating dark patterns, but
+       it is hard to pin down exactly what qualifies under the umbrella of <strong>dark patterns</strong>.
+</p>
+<h3>Block quote</h3>
+<blockquote class="bordered" cite="https://www.espn.com/mlb/story/_/id/32378020/tampa-bay-rays-stung-controversial-ground-rule-double-alds-game-3-loss-boston-red-sox-heartbreaker">
+  Had the ball not bounced over the fence, Diaz would have easily scored. Instead,
+  crew chief Sam Holbrook called the umpires back toward the infield and the umpires
+  made a decision: the ball would be ruled a ground-rule double and Diaz would need
+  to return to third base. The score would remain tied at 4, only to be broken a half-inning
+  later by a walk-off homer from Red Sox catcher Christian Vazquez, cementing a 6-4 Boston
+  victory and setting up an elimination game for Tampa Bay on Monday in Game 4 at <a href="https://www.mlb.com/redsox/ballpark">Fenway Park</a>.
+</blockquote>
+
+<h3>Preformatted text</h3>
+<pre>
+  This text         is
+  untouched
+  by      the
+  html
+</pre>
+
+<img class="bordered" src="./assets/img/titans.png" alt="Tennessee Titans logo" class="center" width=300px height=200px>
+</section>
+
+<section id="lists">
+  <h2>Lists</h2>
+  <h3>Ordered list</h3>
+  <ol class="blue">
+    <li>First item</li>
+    <li>Second item</li>
+    <li>
+      Third item
+      <p>This is additional info about the third item.</p>
+      <a href="https://www.espn.com/">ESPN</a>
+      <img src="./assets/img/titans.png" alt="Tennessee Titans logo" class="center" width=150px height=100px>
+    </li>
+  </ol>
+
+  <h3>Unordered list</h3>
+  <ul>
+    <li>This is an item</li>
+    <li>
+      This is a nested list
+      <ol>
+        <li>Point 1</li>
+        <li>Point 2</li>
+        <li>Point 3</li>
+      </ol>
+
+    </li>
+    <li>This is an item</li>
+  </ul>
+
+
+</section>
+
+<section id="tables">
+  <h2>Tables</h2>
+  <table>
+    <tr>
+      <th>Team</th>
+      <th>Wins</th>
+      <th>Losses</th>
+    </tr>
+    <tr>
+      <td>Lions</td>
+      <td>4</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>Eagles</td>
+      <td>1</td>
+      <td>8</td>
+    </tr>
+  </table>
+
+
+  <table>
+    <tr>
+      <th>Team</th>
+      <th>Wins</th>
+    </tr>
+    <tr>
+      <td>Lions</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>Eagles</td>
+      <td>1</td>
+    </tr>
+  </table>
+
+  <table>
+    <tr>
+      <th>Team</th>
+      <th>Wins</th>
+      <th>Losses</th>
+      <th>Playoffs</th>
+    </tr>
+    <tr>
+      <td>Lions</td>
+      <td>4</td>
+      <td>5</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <td>Eagles</td>
+      <td>1</td>
+      <td>8</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Bears</td>
+      <td>2</td>
+      <td>7</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Jackrabbits</td>
+      <td>9</td>
+      <td>0</td>
+      <td>Yes</td>
+    </tr>
+  </table>
+</section>
+
+</body>
+</html>
