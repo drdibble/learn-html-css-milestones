@@ -182,16 +182,16 @@ Building on `basic-tags.html`, you should be able to do the following:
 
 Building on `basic-tags.html`, you should be able to create tables of varying sizes:
 
-- [ ] ✏️ Create a 3x3 table using the `<table>`, `<tr>`, and `<td>` tags
-- [ ] ✏️ Add headings using the `<th>` tag
-- [ ] ✏️ Create two more tables of different dimensions
+- [X] ✏️ Create a 3x3 table using the `<table>`, `<tr>`, and `<td>` tags
+- [X] ✏️ Add headings using the `<th>` tag
+- [X] ✏️ Create two more tables of different dimensions
 
 ### Multimedia
 
 ✏️ Create a page named `basic-multimedia.html` in which you:
 
-- [ ] ✏️ Use the `<video>` tag to embed one or more videos
-- [ ] ✏️ Use the `<audio>` tag to embed one or more audio clips
+- [X] ✏️ Use the `<video>` tag to embed one or more videos
+- [X] ✏️ Use the `<audio>` tag to embed one or more audio clips
 
 
 
