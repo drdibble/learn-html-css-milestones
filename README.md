@@ -251,9 +251,9 @@ In `basic-css.html`, you should be able to demonstrate the following html inside
 
 ✏️ You should be able to create a new file called `index.html` and do the following:
 
-- [ ] Implement a CSS framework like [Bootstrap](https://getbootstrap.com/)
-  - [ ] ✏️ Find and add the Bootstrap starter template to `index.html`
-  - [ ] ✏️ Add a "full width" section using `.container-fluid` inside the top of `<body></body>` element
+- [X] Implement a CSS framework like [Bootstrap](https://getbootstrap.com/)
+  - [X] ✏️ Find and add the Bootstrap starter template to `index.html`
+  - [X] ✏️ Add a "full width" section using `.container-fluid` inside the top of `<body></body>` element
   ```
 	<div class="container-fluid">
 		<div class="row">
@@ -261,7 +261,7 @@ In `basic-css.html`, you should be able to demonstrate the following html inside
 		</div>
 	</div>
   ```  
-  - [ ] ✏️ Add a new "regular width" section using `.container` underneath the full width section
+  - [X] ✏️ Add a new "regular width" section using `.container` underneath the full width section
   ```
   <div class="container">
 	  <div class="row">
@@ -269,10 +269,10 @@ In `basic-css.html`, you should be able to demonstrate the following html inside
 	  </div>
   </div>
   ```  
-  - [ ] ✏️ To the regular width section, add HTML and [Bootstrap's built-in CSS classes](https://getbootstrap.com/docs) to display a one column layout (mobile) and a three column layout (in large displays and above).
-  - [ ] ✏️ In the first column in the above section, add a link to each of the above html files.
-  - [ ] ✏️ In the second column in the above section, add a selection of [form elements](https://getbootstrap.com/docs) that use Bootstrap classes.  
-  - [ ] ✏️ In the third column in the above section, copy your favorite quote from any of the readings thus far in this class.
+  - [X] ✏️ To the regular width section, add HTML and [Bootstrap's built-in CSS classes](https://getbootstrap.com/docs) to display a one column layout (mobile) and a three column layout (in large displays and above).
+  - [X] ✏️ In the first column in the above section, add a link to each of the above html files.
+  - [X] ✏️ In the second column in the above section, add a selection of [form elements](https://getbootstrap.com/docs) that use Bootstrap classes.  
+  - [X] ✏️ In the third column in the above section, copy your favorite quote from any of the readings thus far in this class.
 
 
 
@@ -283,10 +283,10 @@ You should be able to...
 
 ### Publish HTML/CSS to the web
 
-- [ ] Use [Github Pages](https://docs.github.com/en/github/working-with-github-pages) to publish this project to the web
-- [ ] Validate your [HTML](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-validator/)
-- [ ] ✏️ Replace this: **[https://github.com/*username*/learn-html-css-milestones](https://github.com/*username*/learn-html-css-milestones)** with your Github.com/repository url.
-- [ ] ✏️ Replace this: **[https://*username*.github.io/learn-html-css-milestones](https://*username*.github.io/learn-html-css-milestones)** with your repo's Github Page url.
+- [X] Use [Github Pages](https://docs.github.com/en/github/working-with-github-pages) to publish this project to the web
+- [X] Validate your [HTML](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-validator/)
+- [X] ✏️ Replace this: **[https://github.com/drdibble/learn-html-css-milestones](https://github.com/*username*/learn-html-css-milestones)** with your Github.com/repository url.
+- [X] ✏️ Replace this: **[https://drdibble.github.io/learn-html-css-milestones/](https://*username*.github.io/learn-html-css-milestones)** with your repo's Github Page url.
 
 
 
