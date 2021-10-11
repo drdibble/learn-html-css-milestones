@@ -85,22 +85,22 @@ Here are some more reference-like resources. These might be slightly technical, 
 
 You should be able to...
 
-- [ ] Open this repo on the command line (Bash or Terminal) from within Github Desktop
-- [ ] Use `cd tests` to navigate to the tests directory
-- [ ] Use `ls` to list the contents of a directory
-- [ ] Use `mkdir empty-directory` to create an empty directory
-- [ ] Use `touch empty-file.html` to create an empty file
-- [ ] Use `cd ../` to navigate back up to the root directory of the repo
-- [ ] Use `Atom .` to open the current directory in your code editor
+- [X] Open this repo on the command line (Bash or Terminal) from within Github Desktop
+- [X] Use `cd tests` to navigate to the tests directory
+- [X] Use `ls` to list the contents of a directory
+- [X] Use `mkdir empty-directory` to create an empty directory
+- [X] Use `touch empty-file.html` to create an empty file
+- [X] Use `cd ../` to navigate back up to the root directory of the repo
+- [X] Use `Atom .` to open the current directory in your code editor
 
 
 ### Editing and Viewing
 
-- [ ] ✏️ Create a new (empty) HTML file named `basic-image.html` and edit it in Atom
-- [ ] ✏️ Write some HTML in `basic-image.html`
-- [ ] Open `basic-image.html` in your browser and test it locally
-- [ ] Use "Inspect Element" to open the developer tools and view the HTML and CSS for areas on your web page
-- [ ] ✏️ Add an image to the project `assets/img/` directory and display it on the webpage using the `<img>` tag
+- [X] ✏️ Create a new (empty) HTML file named `basic-image.html` and edit it in Atom
+- [X] ✏️ Write some HTML in `basic-image.html`
+- [X] Open `basic-image.html` in your browser and test it locally
+- [X] Use "Inspect Element" to open the developer tools and view the HTML and CSS for areas on your web page
+- [X] ✏️ Add an image to the project `assets/img/` directory and display it on the webpage using the `<img>` tag
 
 
 
@@ -116,15 +116,15 @@ Let's make sure we have the basic structure of an HTML page down. Don't worry to
 
 ✏️ You should be able to create a file called `basic-structure.html` that contains the following, structured correctly:
 
-- [ ] ✏️ A `DOCTYPE` declaration
-- [ ] ✏️ A `<html>` tag, containing...
-  - [ ] ✏️ A `<head>` tag, containing...
-    - [ ] ✏️ A `<title>` tag with a title of your choosing
-  - [ ] ✏️ A `<body>` tag containing...
-    - [ ] ✏️ One top-level `<h1>` header
-    - [ ] ✏️ A few paragraphs of text in `<p>` tags
-    - [ ] ✏️ A second-level `<h2>` tag
-    - [ ] ✏️ A few more paragraphs of text in `<p>` tags
+- [X] ✏️ A `DOCTYPE` declaration
+- [X] ✏️ A `<html>` tag, containing...
+  - [X] ✏️ A `<head>` tag, containing...
+    - [X] ✏️ A `<title>` tag with a title of your choosing
+  - [X] ✏️ A `<body>` tag containing...
+    - [X] ✏️ One top-level `<h1>` header
+    - [X] ✏️ A few paragraphs of text in `<p>` tags
+    - [X] ✏️ A second-level `<h2>` tag
+    - [X] ✏️ A few more paragraphs of text in `<p>` tags
 
 
 ### The Anatomy of an HTML Tag
@@ -140,13 +140,13 @@ Let's make sure we have the basic structure of an HTML page down. Don't worry to
 
 In `basic-snippet.html`, you should be able to:
 
-- [ ] ✏️ Name the tags in the snippet
-- [ ] ✏️ Link to 2-3 online references that describe each tag, give examples, etc.
-- [ ] ✏️ Describe the relationship between the tags in terms of nesting ("X is a child of Y")
-- [ ] ✏️ Explain the relationship between `<p>` and `</p>`
-- [ ] ✏️ List some of the attribute names on the `<a>` tag
-- [ ] ✏️ For each attribute on the `<a>` tag, name its value
-- [ ] ✏️ For each attribute/value pair on the `<a>` tag, describe its purpose and effect
+- [X] ✏️ Name the tags in the snippet
+- [X] ✏️ Link to 2-3 online references that describe each tag, give examples, etc.
+- [X] ✏️ Describe the relationship between the tags in terms of nesting ("X is a child of Y")
+- [X] ✏️ Explain the relationship between `<p>` and `</p>`
+- [X] ✏️ List some of the attribute names on the `<a>` tag
+- [X] ✏️ For each attribute on the `<a>` tag, name its value
+- [X] ✏️ For each attribute/value pair on the `<a>` tag, describe its purpose and effect
 
 
 ### Basic Tags
@@ -157,26 +157,26 @@ Each section should be contained in its own `<section>` tag. Do not use any CSS 
 
 You should be able to create sections that demonstrate...
 
-- [ ] The following block-level text containers:
-  - [ ] ✏️ The paragraph `<p>` tag
-  - [ ] ✏️ The blockquote `<blockquote>` tag
-  - [ ] ✏️ The pre-formatted text `<pre>` tag
-- [ ] Inline text styling using the following tags:
-  - [ ] ✏️ `<em>` and `<i>`
-  - [ ] ✏️ `<strong>` and `<b>`
-  - [ ] ✏️ `<code>`
-- [ ] ✏️ The `<a>` tag
-- [ ] ✏️ The `<img>` tag
-- [ ] ✏️ The different header tags `<h1>`, `<h2>`, `<h3>`, etc.
+- [X] The following block-level text containers:
+  - [X] ✏️ The paragraph `<p>` tag
+  - [X] ✏️ The blockquote `<blockquote>` tag
+  - [X] ✏️ The pre-formatted text `<pre>` tag
+- [X] Inline text styling using the following tags:
+  - [X] ✏️ `<em>` and `<i>`
+  - [X] ✏️ `<strong>` and `<b>`
+  - [X] ✏️ `<code>`
+- [X] ✏️ The `<a>` tag
+- [X] ✏️ The `<img>` tag
+- [X] ✏️ The different header tags `<h1>`, `<h2>`, `<h3>`, etc.
 
 ### Lists
 
 Building on `basic-tags.html`, you should be able to do the following:
 
-- [ ] ✏️ Create multiple unordered lists using the `<ul>` and `<li>` tags
-- [ ] ✏️ Create multiple ordered lists using the `<ol>` and `<li>` tags
-- [ ] ✏️ Include other HTML inside the list item (`<li>`) tags, e.g., paragraphs, images, links, etc.
-- [ ] ✏️ Nest lists within each other
+- [X] ✏️ Create multiple unordered lists using the `<ul>` and `<li>` tags
+- [X] ✏️ Create multiple ordered lists using the `<ol>` and `<li>` tags
+- [X] ✏️ Include other HTML inside the list item (`<li>`) tags, e.g., paragraphs, images, links, etc.
+- [X] ✏️ Nest lists within each other
 
 ### Tables
 
