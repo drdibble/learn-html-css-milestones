@@ -4,7 +4,8 @@
   <!-- meta tags, links to css, etc. -->
   <title>Basic CSS</title>
   <style>
-    .too_much {
+
+    #too_much {
       color: white;
       text-align: center;
       text-transform: uppercase;
@@ -27,6 +28,15 @@
 
     ul {
       list-style-type: circle;
+      font-style: bold;
+    }
+
+    ul > li {
+      color: blue;
+    }
+
+    ul li li {
+      text-transform: uppercase;
     }
 
     img {
@@ -40,10 +50,15 @@
 <body>
 
 <!-- visible content goes here -->
-<p class="too_much">This is a overly styled piece of text.</p>
+<p id="too_much">This is a overly styled piece of text.</p>
 
 <ul>
-  <li>First</li>
+  <li>
+    First
+    <ul>
+      <li>Additional info</li>
+    </ul>
+  </li>
   <li>Second</li>
   <li>Third</li>
 </ul>
